@@ -13,5 +13,6 @@ namespace OpenBootcampBackend.DataAccess
 
         // TODO: Add DBSets (Tables of our Data base)
         public DbSet<User>? Users { get; set; }
+        public DbSet<Curso>? Cursos { get; set; }
     }
 }
